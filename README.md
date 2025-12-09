@@ -30,6 +30,7 @@ Term     -> Factor { ('*' | '/') Factor }
 Factor   -> ID | NUM | '(' Expr ')'
 
 
+
 📂 Estructura del Proyecto
 
 El código fuente se encuentra en el paquete parser:
